@@ -1,5 +1,8 @@
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 import BasicExample from "./components/table";
+import React from "react";
+import "./App.css";
 
 const url = "http://universities.hipolabs.com/search?country=Australia";
 
